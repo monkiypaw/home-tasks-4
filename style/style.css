@@ -1,0 +1,78 @@
+                @font-face {
+                    font-family: 'Mulish';
+                    src: url(../fonts/Mulish-Light.woff2) format(woff2);
+                    font-weight: 300;
+                    font-style: normal;
+                }
+                
+                @font-face {
+                    font-family: 'Mulish';
+                    src: url(../fonts/Mulish-Bold.woff2) format(woff2);
+                    font-weight: 700;
+                    font-style: normal;
+                }
+                
+                * {
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    font-family: 'Mulish', sans-serif;
+                    font-weight: 300;
+                    font-style: normal;
+                    background-color: rgb(248, 234, 234);
+                }
+                
+                h2 {
+                    font-family: 'Mulish', sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                    text-align: center;
+                    font-size: 36px;
+                    line-height: 1.61;
+                    margin-bottom: 61px;
+                }
+                
+                h3 {
+                    font-family: 'Mulish', sans-serif;
+                    font-size: 24px;
+                    font-weight: 700;
+                    font-style: normal;
+                    line-height: 2.33;
+                    margin-bottom: 1px;
+                }
+                
+                p {
+                    font-family: 'Mulish', sans-serif;
+                    font-weight: 300;
+                    font-style: normal;
+                    font-size: 16px;
+                    line-height: 1.75;
+                    color: #7D7987;
+                }
+                
+                .services {
+                    width: 1150px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                
+                li {
+                    width: 350px;
+                    display: inline-block;
+                    margin-right: 28px;
+                    overflow: hidden;
+                    background: #FFFFFF;
+                    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+                    border-radius: 20px;
+                    margin-bottom: 37px;
+                    vertical-align: top;
+                }
+                
+                .mapp {
+                    padding: 1px 39px 47px;
+                }
+                
+                .over {
+                    margin-bottom: 80px;
+                }
